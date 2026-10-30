@@ -82,4 +82,16 @@ public class Restaurant implements Serializable {
     public void setLogoUrl(String logoUrl) {
         this.logoUrl = logoUrl;
     }
+
+    @Override
+    public String toString() {
+        return "Restaurant{" +
+                "id='" + id + '\'' +
+                ", name='" + name + '\'' +
+                ", type='" + type + '\'' +
+                ", description='" + description + '\'' +
+                ", location='" + location + '\'' +
+                ", logoUrl='" + logoUrl + '\'' +
+                '}';
+    }
 }
